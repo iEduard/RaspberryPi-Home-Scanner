@@ -3,7 +3,7 @@
 OUT_DIR=~/media/ScannerShare
 TMP_DIR=`mktemp -d`
 FILE_NAME=scan_`date +%Y-%m-%d-%H%M%S`
-LANGUAGE="deuq"                 # the tesseract language - ensure you installed it eng = englisch deu = german
+LANGUAGE="deu"                 # the tesseract language - ensure you installed it eng = englisch deu = german
 
 echo 'scanning...'
 scanimage --resolution 300 \
