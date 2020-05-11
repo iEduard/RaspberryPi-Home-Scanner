@@ -1,6 +1,6 @@
 # Fujitsu ScanSnap iX500 und der Raspberry Pi
 
-Oh mann was habe ich alles durchgemacht um das Projekt fertig zu bekommen... Ihc habe das ganze mit den folgenden komponenten realisiert:
+Oh mann was habe ich alles durchgemacht um das Projekt fertig zu bekommen... Ich habe das ganze mit den folgenden komponenten realisiert:
 
 - Raspberry Pi 4B 4Gb Ram  🤷‍♂️
 - Raspberry Pi USB-C Netzteil
@@ -113,7 +113,7 @@ Hier wird der cifs client installiert.
 >$ sudo apt install samba samba-common-bin smbclient cifs-utils
 
 ### Parametrieren 
-Wir erstellen einen Ordern mit dem wir dann das Share mounten. Dieser wird /media/ScannerShare 
+Wir erstellen einen Ordern mit dem wir **dann** das Share mounten. Dieser wird /media/ScannerShare 
 Bitte nicht im home Verzeichnis erstellen. Am meistens sinn macht dies im media Verzeichnis.
 
 >$ mkdir /media/ScannerShare
